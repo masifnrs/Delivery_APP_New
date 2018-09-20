@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.test.delivery_app_new.DeliveryDetailsActivity">
+
+
+    <!--
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/my_map"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="53dp" />
+    -->
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/map"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp"
+        android:text="Address"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/cardview_dark_background"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
